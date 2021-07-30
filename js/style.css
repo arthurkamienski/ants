@@ -1,0 +1,26 @@
+canvas {
+    background-color: black;
+    width: 100%;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.main {
+    width: 95%;
+}
+
+.mobile {
+	display: none;
+	margin: 20px;
+}
+
+@media screen and (max-width: 700px) {
+	.arrow-container {
+		display: none;
+	}
+
+	.mobile {
+		display: block;
+	}
+}
